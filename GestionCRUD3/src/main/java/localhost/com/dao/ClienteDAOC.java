@@ -77,7 +77,7 @@ public class ClienteDAOC implements ClienteDAO {
 		
 		//Eliminar el cliente de la base de datos utilizando su id pasado por parametros.
 		
-		Query consulta = session.createQuery("delete from Cliente where id=:idDelCliente");
+		Query<?> consulta = session.createQuery("delete from Cliente where id=:idDelCliente");
 		
 		consulta.setParameter("idDelCliente", id);
 		
