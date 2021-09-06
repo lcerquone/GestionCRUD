@@ -33,7 +33,7 @@
         <property name="driverClass" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
         <property name="jdbcUrl" value="jdbc:sqlserver://LAPTOP-O8GP8LD8:1433;databasename=gestionPedidosCRUD" />
         <property name="user" value="sa" />
-        <property name="password" value="melomama" /> 
+        <property name="password" value="luis123" /> 
 
         <!-- Propiedades connection pool para C3P0 -->
         <property name="minPoolSize" value="5" />
